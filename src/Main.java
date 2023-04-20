@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
 
     public static void task1() {
@@ -93,7 +94,21 @@ public class Main {
         System.out.println("количество дней если терять по 250 грамм " + planA);
         System.out.println("количество дней если терять по 500 грамм " + planB);
         System.out.println("Среднее количество дней для достжения результата " + srDay);
+    }
 
-
+    public static void task8() {
+        System.out.println("Решение задачи 8");
+        int Masha = (67760 / 100 * 10) + 67760;
+        int Denis = (83690 / 100 * 10) + 83690;
+        int Kristina = (76230 / 100 * 10) + 76230;
+        int MashaEarPosle = Masha * 12;
+        int DenisEarPosle = Denis * 12;
+        int KristinaEarPosle = Kristina * 12;
+        int MashaEarDo = 67760 * 12;
+        int DenisEarDo = 83690 * 12;
+        int KristinaEarDo = 76230 * 12;
+        System.out.println("Маша теперь получает " + Masha + " рублей. Годовой доход вырос на " + (MashaEarPosle - MashaEarDo) + " рублей");
+        System.out.println("Денис теперь получает " + Denis + " рублей. Годовой доход вырос на " + (DenisEarPosle - DenisEarDo) + " рублей");
+        System.out.println("Кристина теперь получает " + Kristina + " рублей. Годовой доход вырос на " + (KristinaEarPosle - KristinaEarDo) + " рублей");
     }
 }
