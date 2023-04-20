@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
 
     public static void task1() {
@@ -79,6 +80,19 @@ public class Main {
         int kg = 1000;
         int massKg = massGr / kg;
         System.out.println("Масса спортзавтрака в киллограмах " + massKg + " кг.");
+    }
+
+    public static void task7() {
+        System.out.println("Решение задачи 7");
+        int loseWeight = 7000;
+        int a = 250;
+        int b = 500;
+        int planA = loseWeight / a;
+        int planB = loseWeight / b;
+        int srDay = (planB + planA) / 2;
+        System.out.println("количество дней если терять по 250 грамм " + planA);
+        System.out.println("количество дней если терять по 500 грамм " + planB);
+        System.out.println("Среднее количество дней для достжения результата " + srDay);
 
 
     }
