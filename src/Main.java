@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
 
     public static void task1() {
@@ -68,4 +69,17 @@ public class Main {
         System.out.println("В школе, где " + ClassOll + " классов,нужно " + white + " банок белой краски и " + black + " банок черной краски ");
     }
 
+    public static void task6() {
+        System.out.println("Решение задачи 6");
+        int banana = 5 * 80;
+        int milk = 2 * 105;
+        int plombir = 2 * 100;
+        int egg = 4 * 70;
+        int massGr = banana + milk + plombir + egg;
+        int kg = 1000;
+        int massKg = massGr / kg;
+        System.out.println("Масса спортзавтрака в киллограмах " + massKg + " кг.");
+
+
+    }
 }
