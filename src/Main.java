@@ -78,8 +78,8 @@ public class Main {
         int plombir = 2 * 100;
         int egg = 4 * 70;
         int massGr = banana + milk + plombir + egg;
-        int kg = 1000;
-        int massKg = massGr / kg;
+        double kg = 1000;
+        double massKg = massGr / kg;
         System.out.println("Масса спортзавтрака в киллограмах " + massKg + " кг.");
     }
 
