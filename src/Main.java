@@ -1,6 +1,12 @@
 public class Main {
     public static void main(String[] args) {
+        task1();
         task2();
+        task3();
+    }
+
+    public static void task1() {
+        System.out.println("Решение задачи 1");
         int box = 45;
         byte cat = -12;
         short dog = 35;
@@ -25,4 +31,17 @@ public class Main {
         float q = 2.786f;
         double z = 27.12;
     }
+
+    public static void task3() {
+        System.out.println("Решение задачи 3");
+        int L = 23;
+        int A = 27;
+        int E = 30;
+        int papper = 480;
+        int cheldren = L + A + E;
+        int list = papper / cheldren;
+        System.out.println("На каждого ученика рассчитано " + list + " листов бумаги");
+
+    }
+
 }
